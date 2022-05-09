@@ -1,0 +1,212 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    body{
+      background-color: azure;
+      background-image: url("../images/fondo.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    
+    }
+    #particles-js{
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      z-index: -1
+    }
+    #barra-superior {
+                margin:auto;
+                width:100%;
+                background:#333333; /*Color de fondo de la barra*/
+                height:40px; /*Anchura de la barra*/
+                border-bottom: 4px solid #adbcdc; /*Línea de debajo del menú, si no queréis borrad esta línea*/
+                position:fixed; /*Para que la barra se quede fija*/
+    }
+    #barra-superior {
+                top: 0px;
+                margin:auto;
+                width:100%;
+                background:#333333; /*Color de fondo de la barra*/
+                height:50px; /*Anchura de la barra*/
+                border-bottom: 4px solid #adbcdc; /*Línea de debajo del menú, si no queréis borrad esta línea*/
+                position:sticky; /*Para que la barra se quede fija*/
+                z-index:101; /*Para que la barra se quede fija*/
+                }
+    
+                ul, ol {
+                list-style:none;
+                }
+    
+                .menu > li {
+                float:left;
+                }
+    
+                .menu{
+                margin:0 auto;
+                width:1000px; /*Ancho del menú dentro de la barra, variaremos este valor hasta conseguir el que buscamos*/
+                }
+    
+                .menu li a {
+                color:#ffffff; /*Color de las letras de las pestañas*/
+
+                font:normal normal 10px Arial; /*Tamaño y tipografía de las                   pestañas*/
+                text-transform:uppercase; /*Para que esté en mayúsculas, sino borrad esta línea*/
+                letter-spacing: 2px; /*Espaciado entre caracteres, si no queréis borrad la línea*/
+                text-decoration:none;
+                padding:20px 5px;
+                font:normal normal 13px Tahoma; /*Tamaño y tipografía de las                   pestañas*/
+                text-transform:uppercase; /*Para que esté en mayúsculas, sino borrad esta línea*/
+                letter-spacing: 2px; /*Espaciado entre caracteres, si no queréis borrad la línea*/
+                text-decoration:none;
+                padding:20px 10px;
+                display:block;
+                cursor:pointer;
+                }
+    
+                .menu li a:hover {
+                color: #faefe6; /*Color de las pestañas al pasar el ratón por                 encima*/
+                }
+    
+                .menu li i{ /*Esto es para los iconos sociales, si no los tenéis borrad este bloque*/
+                color: #ffffff; /*Color de los iconos sociales*/
+                font-size: 14px; /*Tamaño de los iconos sociales*/
+                padding:0px 5px;
+                }
+    
+                .menu li i:hover{ /*Esto es para los iconos sociales, si no los tenéis borrad este bloque*/
+                color: #faefe6; /*Color de los iconos sociales al pasar por                   encima*/
+                }
+    
+                .menu li ul {
+                background-color: #f4f0f1; /*Color de fondo de las subpestañas*/
+                display:none;
+                position:absolute;
+                min-width:140px;
+                }
+    
+                .menu li ul a { /*Si queréis que la letra sea igual que las                   pestañas, borrad esta línea*/
+                color: #666666; /*Color de las letras de las subpestañas*/
+                font:normal normal 10px ARIAL; /*Tamaño y tipografía de las                   subpestañas*/
+                font:normal normal 12px tahoma; /*Tamaño y tipografía de las                   subpestañas*/
+                text-transform:uppercase; /*Para que esté en mayúsculas, sino borrad la línea*/
+                letter-spacing: 2px; /*Espaciado entre caracteres, si no lo queréis borrad la línea*/
+                }
+    
+                .menu li ul a:hover { /*Si queréis que la letra sea igual que las              pestañas, borrad esta línea*/
+                color: #F9A799; /*Color de las letras de las subpestañas al pasar el ratón por encima*/
+                }
+    
+                .menu li:hover > ul {
+                display:block;
+                }
+    
+                .search-box{ /*Para cambiar la apariencia de la cajita*/
+                width:15%; /*Tamaño de la caja entera*/
+                text-align:center;
+                padding:5px 0; /*Altura de cajita*/
+                MARGIN-LEFT: 50PX;
+                color:#333333; /*Color de las letras cuando escriba el usuario*/
+                border:0px solid #cccccc; /*Tamaño, estilo y color del borde,si no queremos borde borrar la línea*/
+                background:#ffffff; /*Color de fondo*/
+                font: normal normal 11px Lato; /*Tamaño y tipografia de la palabra BUSCAR (o la que hayas escrito)*/
+                border-radius:1px; /*Bordes redondeados, si no los quieres,
+                borrar esta línea*/
+                }
+    
+                #buscar-top{ /*Para colocarla bien dentro de nuestra barra*/
+                margin-top:15px; /*Variar para colocarlo bien de altura*/
+                margin-right:170px; /*Variar para colocarlo bien a lo ancho*/
+    
+                }
+                #bienvenido001{
+                    animation-duration: 1s;
+                    animation-name: bienvenido001;
+                    margin-top: 190px;
+                    width: 900px;
+                    margin-left: 18%;
+                  }
+                  
+                  @keyframes bienvenido001 {
+                    from {
+                      margin-left: 100%;
+                      width: 900px;;
+                    }
+            
+                    to {
+                      margin-left: 18%;
+                    width: 900px;
+                    }
+                  } 
+                .h2header{
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: #262c53;
+                    font-size: 20px;
+                }
+
+                #h2header00{
+                animation-duration: 1s;
+                animation-name: h2header00;
+                position: relative; 
+                margin-left: 10%;
+                top: 85px;
+                }
+                @keyframes h2header00 {
+                    from {
+                      margin-left: 100%;
+                
+                    }
+            
+                    to {
+                      margin-left: 10%;
+        
+                    }
+                  } 
+                #h2header01{
+                animation-duration: 1s;
+                animation-name: h2header01;
+                position: relative;
+                margin-left: 39%;
+                top: 42px;
+                }
+                @keyframes h2header01 {
+                    from {
+                      margin-left: 100%;
+             
+                    }
+            
+                    to {
+                      margin-left: 39%;
+              
+                    }
+                  } 
+                #h2header02{
+                animation-name: h2header02;
+                animation-duration: 1s;
+                margin-left: 70%; 
+                }
+                @keyframes h2header02 {
+                    from {
+                      margin-left: 100%;
+                 
+                    }
+            
+                    to {
+                      margin-left: 70%;
+          
+                    }
+                  } 
+
+                #barraheader01{
+                    margin-top: 11%;
+                }
+
+            
+
+              
+            
+
+            
+
+                  
+                
